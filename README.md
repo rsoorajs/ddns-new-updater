@@ -44,7 +44,8 @@ This readme and the [docs/](docs/) directory are **versioned** to match the prog
 ## Features
 
 - Available as a Docker image [`qmcgaw/ddns-updater`](https://hub.docker.com/r/qmcgaw/ddns-updater) and [`ghcr.io/qdm12/ddns-updater`]((https://github.com/qdm12/ddns-updater/pkgs/container/ddns-updater))
-- 🆕 Available as [zero-dependency binaries for Linux, Windows and MacOS](https://github.com/qdm12/ddns-updater/releases)
+- Available as [zero-dependency binaries for Linux, Windows and MacOS](https://github.com/qdm12/ddns-updater/releases)
+- 🆕 Available in the AUR as [`ddns-updater`](https://aur.archlinux.org/packages/ddns-updater) - see #808
 - Updates periodically A records for different DNS providers:
   - Aliyun
   - AllInkl
@@ -304,7 +305,6 @@ You can otherwise customize it with the following:
   - `ipify` using [https://api64.ipify.org](https://api64.ipify.org)
   - `ifconfig` using [https://ifconfig.io/ip](https://ifconfig.io/ip)
   - `ipinfo` using [https://ipinfo.io/ip](https://ipinfo.io/ip)
-  - `google` using [https://domains.google.com/checkip](https://domains.google.com/checkip)
   - `spdyn` using [https://checkip.spdyn.de](https://checkip.spdyn.de/)
   - `ipleak` using [https://ipleak.net/json](https://ipleak.net/json)
   - `icanhazip` using [https://icanhazip.com](https://icanhazip.com)
